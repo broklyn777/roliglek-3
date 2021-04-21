@@ -1,20 +1,18 @@
+"build": "next build && node ./scripts/generate-sitemap",
+
 origin git@github.com:broklyn777/roliglek-next-tw.git (fetch)
 git@github.com:broklyn777/roliglek-next-tw.git
 
-
-$ git remote set-url origin git@github.com:broklyn777/roliglek-next-tw.git 
-
+$ git remote set-url origin git@github.com:broklyn777/roliglek-next-tw.git
 
 git remote add origin https://github.com/broklyn777/roliglek-next-tw.git
 
-
 https://github.com/broklyn777/roliglek-next-tw
-
 
 git commit -m "f h1 mmm"
 
 Quick setup — if you’ve done this kind of thing before
-or	
+or
 https://github.com/broklyn777/roliglek-3.git
 Get started by creating a new file or uploading an existing file. We recommend every repository include a README, LICENSE, and .gitignore.
 
