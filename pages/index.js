@@ -37,10 +37,39 @@ export default function Home({ posts }) {
         <div className=" container py-12">
           <div className="grid grid-cols-2 gap-4">
             <div>
-              <h3 className=" text-3xl">Hitta lekar enkelt med Roliglek.se</h3>
+              <h3 className="font-semibold text-3xl">Hitta lekar enkelt med Roliglek.se</h3>
+              <ul className="list-inside bg-rose-200 ..."></ul>
+              <div className="pt-4">
+                <ul>
+                  <li className="">
+                    <div className="flex items-center">
+                      <div className="mr-1">
+                        <svg
+                          xmlns="http://www.w3.org/2000/svg"
+                          className=" h-6 w-6"
+                          fill="none"
+                          viewBox="0 0 24 24"
+                          stroke="#34D399"
+                        >
+                          <path
+                            strokeLinecap="round"
+                            strokeLinejoin="round"
+                            strokeWidth={2}
+                            d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"
+                          />
+                        </svg>{' '}
+                      </div>
+                      <p className="text-gray-500">
+                        {' '}
+                        Sök lekar utifrån ett visst tillfälle, ålder och antal deltagare.{' '}
+                      </p>{' '}
+                    </div>{' '}
+                  </li>
+                </ul>
+              </div>
             </div>
             <div>
-              <img src="/static/images/kids-backyard.png" alt="Hoppa rep" />
+              <img className="" src="/static/images/kids-backyard.png" alt="Hoppa rep" />
             </div>
           </div>
         </div>
@@ -56,12 +85,6 @@ export default function Home({ posts }) {
               />
             ))}
           </div>
-        </div>
-        <div className="bg-gray-50 grid grid-cols-2">
-          <div>hej</div>
-          <div>hej</div>
-          <div>hej</div>
-          <div>hej</div>
         </div>
 
         <ul className="divide-y divide-gray-200 dark:divide-gray-700">
