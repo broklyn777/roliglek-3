@@ -1,19 +1,24 @@
 const projectsData = [
   {
-    title: 'The Time Machine',
-    description: `Imagine being able to travel back in time or to the future. Simple turn the knob
-    to the desired date and press "Go". No more worrying about lost keys or
-    forgotten handphones with this simple yet affordable solution.`,
-    imgSrc: '/static/images/time-machine.jpg',
-    href: '/blog/the-time-machine',
+    title: 'Lek Med Löv',
+    description: `Denna titt på fyra sensoriska fördelar med lövlek, och höstens utomhusaktivitetsidé för familjen, får vi av vår gästbloggare Dagge.`,
+    imgSrc: '/static/images/lek-med-lov.jpeg',
+    href: '/blog/lek-med-lov',
   },
+
   {
     title: 'Ester Pysslar',
     description: `Tänk dig att kunna resa med pysslet tillbaka i tiden eller till framtiden. Vrid vredet enkelt
-     till önskat datum och tryck på "Gå". Inte mer oroa dig för förlorade nycklar eller
-     glömda mobiltelefoner med denna enkla men prisvärda lösnings.`,
+     till önskat datum och tryck på "Gå". Inte mer oroa dig för förlorade .`,
     imgSrc: '/static/images/ester-pyssel1.jpg',
     href: '/blog/ester-pysslar',
+  },
+  {
+    title: 'The Time Machine',
+    description: `Imagine being able to travel back in time or to the future. Simple turn the knob
+    to the desired date and press "Go".`,
+    imgSrc: '/static/images/time-machine.jpg',
+    href: '/blog/the-time-machine',
   },
   {
     title: 'A Search Engine',
