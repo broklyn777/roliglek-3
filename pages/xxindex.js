@@ -3,11 +3,8 @@ import { PageSeo } from '@/components/SEO'
 import Tag from '@/components/Tag'
 import siteMetadata from '@/data/siteMetadata'
 import { getAllFilesFrontMatter } from '@/lib/mdx'
-import projectsData from '@/data/projectsData'
-// import Link from '@/components/Link'
-import Card2 from '@/components/Card2'
 
-const MAX_DISPLAY = 2
+const MAX_DISPLAY = 5
 const postDateTemplate = { year: 'numeric', month: 'long', day: 'numeric' }
 
 export async function getStaticProps() {
@@ -32,36 +29,6 @@ export default function Home({ posts }) {
           <p className="text-lg leading-7 text-gray-500 dark:text-gray-400">
             {siteMetadata.description}
           </p>
-        </div>
-
-        <div className=" container py-12">
-          <div className="grid grid-cols-2 gap-4">
-            <div>
-              <h3 className=" text-3xl">Hitta lekar enkelt med Roliglek.se</h3>
-            </div>
-            <div>
-              <img src="/static/images/kids-backyard.png" alt="Hoppa rep" />
-            </div>
-          </div>
-        </div>
-        <div className="container py-12">
-          <div className="flex flex-wrap  -m-4">
-            {projectsData.map((d) => (
-              <Card2
-                key={d.title}
-                title={d.title}
-                description={d.description}
-                imgSrc={d.imgSrc}
-                href={d.href}
-              />
-            ))}
-          </div>
-        </div>
-        <div className="bg-gray-50 grid grid-cols-2">
-          <div>hej</div>
-          <div>hej</div>
-          <div>hej</div>
-          <div>hej</div>
         </div>
 
         <ul className="divide-y divide-gray-200 dark:divide-gray-700">
@@ -125,7 +92,7 @@ export default function Home({ posts }) {
             className="text-blue-500 hover:text-blue-600 dark:hover:text-blue-400"
             aria-label="all posts"
           >
-            Till bloggen &rarr;
+            All Posts &rarr;
           </Link>
         </div>
       )}

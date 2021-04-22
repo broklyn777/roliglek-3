@@ -9,7 +9,7 @@ const projectsData = [
   {
     title: 'Ester Pysslar',
     description: `Tänk dig att kunna resa med pysslet tillbaka i tiden eller till framtiden. Vrid vredet enkelt
-     till önskat datum och tryck på "Gå". Inte mer oroa dig för förlorade .`,
+     till önskat datum och tryck på "Gå". Inte mer oroa dig för förlorade.`,
     imgSrc: '/static/images/ester-pyssel1.jpg',
     href: '/blog/ester-pysslar',
   },

@@ -1,14 +1,13 @@
 ---
 title: Ester Pysslar
 date: '2021-01-31'
-tags: ['barn', 'lek','pyssel']
+tags: ['barn', 'lek', 'pyssel']
 draft: false
 summary: Pyssel med vattenfärg och klippböcker. Jättekul!
 images: ['/static/images/ester-pyssel1.jpg']
 ---
 
 ![tailwind-nextjs-banner](/static/images/ester-pyssel1.jpg)
-
 
 # Introduction
 
@@ -39,10 +38,6 @@ For a markdown file, the default image tag can be used and the default `img` tag
 Assuming we have a file called `ocean.jpg` in `data/img/ocean.jpg`, the following line of code would generate the optimized image.
 
 ```
-![ocean](/static/images/ocean.jpg)
-```
-
-```
 ![ester](/static/images/ester-pyssel1.jpeg)
 ```
 
@@ -53,8 +48,6 @@ Alternatively, since we are using mdx, we can just use the image component direc
 ```
 
 _Note_: If you try to save the image, it is in webp format, if your browser supports it!
-
-![ocean](/static/images/ocean.jpeg)
 
 ![ester-pyssel](/static/images/ester-pyssel1.jpg)
 
