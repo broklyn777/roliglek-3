@@ -2,7 +2,7 @@ import Image from 'next/image'
 import Link from '@/components/Link'
 
 const Card = ({ title, description, imgSrc, href }) => (
-  <div className=" md:w-1/1 md" style={{ maxWidth: '500' }}>
+  <div className=" md:w-1/1" style={{ maxWidth: '500' }}>
     <div className="h-full border-2 border-gray-200 border-opacity-60 dark:border-gray-700 rounded-md overflow-hidden">
       {href ? (
         <Link href={href} aria-label={`Link to ${title}`}>
