@@ -2,16 +2,16 @@ import Image from 'next/image'
 import Link from '@/components/Link'
 
 const Card = ({ title, description, imgSrc, href }) => (
-  <div className=" md:w-1/1" style={{ maxWidth: '500' }}>
+  <div className="" style={{ maxWidth: '500' }}>
     <div className="h-full border-2 border-gray-200 border-opacity-60 dark:border-gray-700 rounded-md overflow-hidden">
       {href ? (
         <Link href={href} aria-label={`Link to ${title}`}>
           <Image
             alt={title}
             src={imgSrc}
-            className="lg:h-48 md:h-36 object-cover object-center"
-            width={400}
-            height={250}
+            className="lg:  h-48 md:h-36 object-cover object-center"
+            width={544}
+            height={306}
           />
         </Link>
       ) : (

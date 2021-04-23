@@ -75,18 +75,7 @@ export default function Home({ posts }) {
 
         {/* -------------------GRID AREA-------------------------------- */}
 
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-          <div className=" bg-red-200 p-3 rounded">1</div>
-          <div className=" bg-red-200 p-3 rounded">2</div>
-          <div className=" bg-red-200 p-3 rounded">3</div>
-          <div className=" bg-red-200 p-3 rounded">4</div>
-          <div className=" bg-red-200 p-3 rounded">5</div>
-          <div className=" bg-red-200 p-3 rounded">6</div>
-          <div className=" bg-red-200 p-3 rounded">7</div>
-          <div className=" bg-red-200 p-3 rounded">8</div>
-          <div className=" bg-red-200 p-3 rounded">9</div>
-        </div>
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+        <div className=" py-6 grid grid-cols-1 lg:grid-cols-2 xl:grid-cols-3 gap-4">
           {projectsData.map((d) => (
             <Card2
               key={d.title}
@@ -110,6 +99,18 @@ export default function Home({ posts }) {
               />
             ))}
           </div>
+        </div> */}
+
+        {/* <div className="grid grid-cols-1 lg:grid-cols-2 xl:grid-cols-3 gap-4">
+          <div className=" bg-red-200 p-3 rounded">1</div>
+          <div className=" bg-red-200 p-3 rounded">2</div>
+          <div className=" bg-red-200 p-3 rounded">3</div>
+          <div className=" bg-red-200 p-3 rounded">4</div>
+          <div className=" bg-red-200 p-3 rounded">5</div>
+          <div className=" bg-red-200 p-3 rounded">6</div>
+          <div className=" bg-red-200 p-3 rounded">7</div>
+          <div className=" bg-red-200 p-3 rounded">8</div>
+          <div className=" bg-red-200 p-3 rounded">9</div>
         </div> */}
       </div>
     </>
