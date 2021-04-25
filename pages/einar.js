@@ -6,6 +6,7 @@ import { getAllFilesFrontMatter } from '@/lib/mdx'
 import projectsData from '@/data/projectsData'
 // import Link from '@/components/Link'
 import Card2 from '@/components/Card2'
+import ListLayout from '@/layouts/ListLayout'
 
 const MAX_DISPLAY = 2
 const postDateTemplate = { year: 'numeric', month: 'long', day: 'numeric' }
@@ -24,12 +25,13 @@ export default function Home({ posts }) {
         description={siteMetadata.description}
         url={siteMetadata.siteUrl}
       />
+
       <div className="divide-y divide-gray-200 dark:divide-gray-700">
         <div className="pt-6 pb-8 space-y-2 md:space-y-5">
           <h3 className=" text-3xl ">
             Hitta lekar enkelt med <span className=" font-semibold text-blue-500">RoligLek.se</span>{' '}
           </h3>
-          <div>
+          <div className="">
             <img className="" src="/static/images/kids-backyard.png" alt="Hoppa rep" />
           </div>
           {/* -----------------------HERO -------- */}
@@ -38,43 +40,6 @@ export default function Home({ posts }) {
             {siteMetadata.description}
           </p>
         </div>
-        {/* CONTAINAR varit här */}
-        {/* <div className="grid grid-cols-2 gap-4">
-            <div>
-            
-              <ul className="list-inside bg-rose-200 ..."></ul>
-              <div className="pt-4">
-                <ul>
-                  <li className="">
-                    <div className="flex items-center">
-                      <div className="mr-1">
-                        <svg
-                          xmlns="http://www.w3.org/2000/svg"
-                          className="h-6 w-6"
-                          fill="none"
-                          viewBox="0 0 24 24"
-                          stroke="#34D399"
-                        >
-                          <path
-                            strokeLinecap="round"
-                            strokeLinejoin="round"
-                            strokeWidth={2}
-                            d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"
-                          />
-                        </svg>
-                      </div>
-                      <p className="text-gray-500 text-lg">
-                        Sök lekar utifrån ett visst tillfälle, ålder och antal deltagare.
-                      </p>
-                    </div>
-                  </li>
-                </ul>
-              </div>
-            </div>
-            <div>
-              <img className="" src="/static/images/kids-backyard.png" alt="Hoppa rep" />
-            </div>
-          </div> */}
 
         {/* -------------------GRID AREA-------------------------------- */}
 
